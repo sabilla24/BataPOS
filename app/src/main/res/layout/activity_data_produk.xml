@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listView"
+    app:contentPadding="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:textColor="#2b2b2b"
+                android:textSize="20sp"
+                tools:text="Name" />
+
+            <TextView
+                android:id="@+id/tv_version"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:textColor="#2b2b2b"
+                android:textSize="17dp"
+                tools:text="Version" />
+
+            <TextView
+                android:id="@+id/tv_app_level"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:textColor="#2b2b2b"
+                android:textSize="17dp"
+                tools:text="App Level" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginLeft="210dp"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp 25.000"
+                    android:textSize="17dp"
+                    android:textColor="#D50000"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
